@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top right ,#FF494C,#FF5C7F);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6,img,p{
+    margin: 0;
+    padding: 0;
+}
+
+.todos{
+    position: absolute;
+    left: 20%;
+    padding: 4rem;
+    min-width: 80rem;
+    min-height: 40rem;
+}
+
+/* Todo's Head */
+.todos-head{
+    display: flex;
+    justify-content: center;
+}
+.todos-head .todo-head__input{
+   width: 40rem;
+   height: 3rem;
+   font-size: 1.8rem;
+}
+.todos-head .todo-head__add{
+    background-color: #fff;
+    border: none;
+    padding: 1rem 3rem;
+    margin-left: .5rem;
+}
+
+
+
+.todos-body{
+ padding: .4rem;
+ margin-top: 1rem;
+}
+
+
+/* Todo's Body */
+.todo-body{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  background-color: navajowhite;
+  padding: 1.5rem;
+}
+
+.todo-body__cancle{
+    
+}
+.todo-body__corss{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.todo-body__completed{
+   
+}
+.todo_complete_chkbox{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+.todo-body__name{
+   font-size: 2rem;
+   flex-grow: 1;
+}
+
+.done{
+   background-color: green;
+   color: #fff ; 
+   border: 3px solid yellow;
+}
+.not_done{
+    background-color: navajowhite ;
+    color: #000 ;    
+}
+
+
